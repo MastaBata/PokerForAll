@@ -58,7 +58,6 @@ namespace CardGame
 
         private void blackButton_Click_1(object sender, EventArgs e)
         {
-            blackJackBoardGUI1.Visible = true; 
             texasButton.Visible = false;
             blackButton.Visible = false;
             backButton.Visible = true;
@@ -85,11 +84,7 @@ namespace CardGame
                 {
                     texasHoldem1.SaveStats(); 
                 }
-                else if(gameMode == 2)
-                {
-                    blackJackBoardGUI1.SaveStats();
-
-                }
+                
 
                 Application.Restart();
                 Environment.Exit(0);

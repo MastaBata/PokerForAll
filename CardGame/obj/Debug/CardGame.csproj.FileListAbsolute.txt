@@ -3,8 +3,6 @@ C:\Users\babci\source\repos\Card-Game\CardGame\CardGame\bin\Debug\CardGame.exe
 C:\Users\babci\source\repos\Card-Game\CardGame\CardGame\bin\Debug\CardGame.pdb
 C:\Users\babci\source\repos\Card-Game\CardGame\CardGame\obj\Debug\CardGame.csproj.AssemblyReference.cache
 C:\Users\babci\source\repos\Card-Game\CardGame\CardGame\obj\Debug\CardGame.csproj.SuggestedBindingRedirects.cache
-C:\Users\babci\source\repos\Card-Game\CardGame\CardGame\obj\Debug\CardGame.Black_Jack.View.BlackJackBoardGUI.resources
-C:\Users\babci\source\repos\Card-Game\CardGame\CardGame\obj\Debug\CardGame.Black_Jack.View.PlayerControlBlackJackGUI.resources
 C:\Users\babci\source\repos\Card-Game\CardGame\CardGame\obj\Debug\CardGame.Form1.resources
 C:\Users\babci\source\repos\Card-Game\CardGame\CardGame\obj\Debug\CardGame.Texas_Hold_em.View.community.resources
 C:\Users\babci\source\repos\Card-Game\CardGame\CardGame\obj\Debug\CardGame.Texas_Hold_em.View.PlayerControlGUI.resources

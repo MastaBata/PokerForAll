@@ -1,6 +1,4 @@
-﻿using CardGame.Black_Jack.Controller;
-
-using CardGame.Texas_Hold_em.Controller;
+﻿using CardGame.Texas_Hold_em.Controller;
 using CardGame.Texas_Hold_em.Model;
 using CardGame.Texas_Hold_em.Testing;
 using CardGame.Texas_Hold_em.View;

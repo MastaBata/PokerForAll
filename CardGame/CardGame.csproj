@@ -52,21 +52,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Black Jack\Controller\BlackJackController.cs" />
-    <Compile Include="Black Jack\Model\CardAdapter.cs" />
-    <Compile Include="Black Jack\Model\Player.cs" />
-    <Compile Include="Black Jack\View\BlackJackBoardGUI.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Black Jack\View\BlackJackBoardGUI.Designer.cs">
-      <DependentUpon>BlackJackBoardGUI.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Black Jack\View\PlayerControlBlackJackGUI.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Black Jack\View\PlayerControlBlackJackGUI.Designer.cs">
-      <DependentUpon>PlayerControlBlackJackGUI.cs</DependentUpon>
-    </Compile>
     <Compile Include="Point System\PointManager.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -116,12 +101,6 @@
     <Compile Include="Texas Hold%27em\View\PokerBoardGUI.Designer.cs">
       <DependentUpon>PokerBoardGUI.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Black Jack\View\BlackJackBoardGUI.resx">
-      <DependentUpon>BlackJackBoardGUI.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Black Jack\View\PlayerControlBlackJackGUI.resx">
-      <DependentUpon>PlayerControlBlackJackGUI.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

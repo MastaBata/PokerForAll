@@ -36,7 +36,6 @@
             this.noCash = new System.Windows.Forms.Label();
             this.title = new System.Windows.Forms.Label();
             this.refillButton = new System.Windows.Forms.Button();
-            this.blackJackBoardGUI1 = new CardGame.Black_Jack.View.BlackJackBoardGUI();
             this.texasHoldem1 = new CardGame.View.TexasHoldem();
             this.SuspendLayout();
             // 
@@ -155,16 +154,6 @@
             this.refillButton.Visible = false;
             this.refillButton.Click += new System.EventHandler(this.refillButton_Click);
             // 
-            // blackJackBoardGUI1
-            // 
-            this.blackJackBoardGUI1.BackColor = System.Drawing.Color.DarkGreen;
-            this.blackJackBoardGUI1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.blackJackBoardGUI1.Location = new System.Drawing.Point(0, 0);
-            this.blackJackBoardGUI1.Name = "blackJackBoardGUI1";
-            this.blackJackBoardGUI1.Size = new System.Drawing.Size(1036, 578);
-            this.blackJackBoardGUI1.TabIndex = 3;
-            this.blackJackBoardGUI1.Visible = false;
-            // 
             // texasHoldem1
             // 
             this.texasHoldem1.BackColor = System.Drawing.Color.DarkGreen;
@@ -190,7 +179,6 @@
             this.Controls.Add(this.backButton);
             this.Controls.Add(this.blackButton);
             this.Controls.Add(this.texasButton);
-            this.Controls.Add(this.blackJackBoardGUI1);
             this.Controls.Add(this.texasHoldem1);
             this.Name = "Form1";
             this.Text = "Card Game";
@@ -203,7 +191,6 @@
 
         private View.TexasHoldem texasHoldem1;
         private System.Windows.Forms.Button texasButton;
-        private Black_Jack.View.BlackJackBoardGUI blackJackBoardGUI1;
         private System.Windows.Forms.Button blackButton;
         private System.Windows.Forms.Button backButton;
         private System.Windows.Forms.Label cashLabel;
