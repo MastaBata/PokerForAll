@@ -82,18 +82,6 @@
             this.cashLabel.Text = "$10000";
             this.cashLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // pointsLabel
-            // 
-            this.pointsLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.pointsLabel.Font = new System.Drawing.Font("Calibri", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pointsLabel.ForeColor = System.Drawing.Color.Gold;
-            this.pointsLabel.Location = new System.Drawing.Point(743, 527);
-            this.pointsLabel.Name = "pointsLabel";
-            this.pointsLabel.Size = new System.Drawing.Size(281, 42);
-            this.pointsLabel.TabIndex = 8;
-            this.pointsLabel.Text = "0 points";
-            this.pointsLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
             // noCash
             // 
             this.noCash.Anchor = System.Windows.Forms.AnchorStyles.None;
