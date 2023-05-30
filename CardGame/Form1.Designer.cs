@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.texasButton = new System.Windows.Forms.Button();
-            this.blackButton = new System.Windows.Forms.Button();
             this.backButton = new System.Windows.Forms.Button();
             this.cashLabel = new System.Windows.Forms.Label();
             this.pointsLabel = new System.Windows.Forms.Label();
@@ -54,22 +53,6 @@
             this.texasButton.Text = "Texas Hold\'em";
             this.texasButton.UseVisualStyleBackColor = false;
             this.texasButton.Click += new System.EventHandler(this.texasButton_Click);
-            // 
-            // blackButton
-            // 
-            this.blackButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.blackButton.BackColor = System.Drawing.Color.Gray;
-            this.blackButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.blackButton.Font = new System.Drawing.Font("Niagara Engraved", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.blackButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.blackButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.blackButton.Location = new System.Drawing.Point(404, 311);
-            this.blackButton.Name = "blackButton";
-            this.blackButton.Size = new System.Drawing.Size(231, 51);
-            this.blackButton.TabIndex = 4;
-            this.blackButton.Text = "Black Jack";
-            this.blackButton.UseVisualStyleBackColor = false;
-            this.blackButton.Click += new System.EventHandler(this.blackButton_Click_1);
             // 
             // backButton
             // 
@@ -134,7 +117,7 @@
             this.title.Name = "title";
             this.title.Size = new System.Drawing.Size(1012, 124);
             this.title.TabIndex = 10;
-            this.title.Text = "Card Game";
+            this.title.Text = "PokerForAll";
             this.title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // refillButton
@@ -177,11 +160,10 @@
             this.Controls.Add(this.pointsLabel);
             this.Controls.Add(this.cashLabel);
             this.Controls.Add(this.backButton);
-            this.Controls.Add(this.blackButton);
             this.Controls.Add(this.texasButton);
             this.Controls.Add(this.texasHoldem1);
             this.Name = "Form1";
-            this.Text = "Card Game";
+            this.Text = "PokerForAll";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -191,7 +173,6 @@
 
         private View.TexasHoldem texasHoldem1;
         private System.Windows.Forms.Button texasButton;
-        private System.Windows.Forms.Button blackButton;
         private System.Windows.Forms.Button backButton;
         private System.Windows.Forms.Label cashLabel;
         private System.Windows.Forms.Label pointsLabel;

@@ -30,7 +30,6 @@ namespace CardGame
             if(v.Item2 == 0)
             {
                 texasButton.Enabled = false; 
-                blackButton.Enabled = false;
                 noCash.Visible = true; 
                 refillButton.Visible = true;    
             }
@@ -44,7 +43,6 @@ namespace CardGame
         {
             texasHoldem1.Visible = true;
             texasButton.Visible = false;
-            blackButton.Visible = false;
             backButton.Visible = true;
             cashLabel.Visible = false;
             pointsLabel.Visible = false;
@@ -59,7 +57,6 @@ namespace CardGame
         private void blackButton_Click_1(object sender, EventArgs e)
         {
             texasButton.Visible = false;
-            blackButton.Visible = false;
             backButton.Visible = true;
             cashLabel.Visible = false;
             pointsLabel.Visible = false;
@@ -99,7 +96,6 @@ namespace CardGame
             int refillCash = 5000; 
             PointManager.SavePoints(points, refillCash);
             texasButton.Enabled = true;
-            blackButton.Enabled = true;
             noCash.Visible = false;
             refillButton.Visible = false;
             cashLabel.Text = "$" + refillCash.ToString();
