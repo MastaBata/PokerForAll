@@ -25,7 +25,7 @@ namespace CardGame
          
             cashLabel.Text = "$" + v.Item2;
             points = v.Item1;
-            pointsLabel.Text = v.Item1 + " points";
+            
 
             if(v.Item2 == 0)
             {
